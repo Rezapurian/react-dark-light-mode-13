@@ -1,0 +1,83 @@
+.main-page-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  height: 370px;
+  padding: 40px 20px;
+  border-radius: 18px;
+  box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+#light .main-page-form {
+  background: #fff;
+}
+
+#dark .main-page-form {
+  background: #38004c;
+  box-shadow: none;
+}
+
+.main-page-form .sign {
+  color: #9d039d;
+  margin-bottom: 50px;
+}
+
+#light .main-page-form .sign {
+  color: #9d039d;
+}
+
+#dark .main-page-form .sign {
+  color: #fff;
+}
+
+.main-page-form .form-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-1 input {
+  width: 250px;
+  height: 40px;
+  border-radius: 18px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #fcf1ff;
+}
+
+#light .form-1 input {
+  background: #fcf1ff;
+}
+
+#dark .form-1 input {
+  background: #4e0163;
+}
+
+.form-1 button {
+  width: 50%;
+  height: 35px;
+  border: none;
+  border-radius: 18px;
+  background: #f284fc;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#light .form-1 button {
+  background: #f284fc;
+}
+
+#dark .form-1 button {
+  background: #9602bf;
+}
+
+.form-1 .forget {
+  margin-top: 30px;
+  color: #f4d3fd;
+  cursor: pointer;
+}
